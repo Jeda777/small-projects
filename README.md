@@ -13,3 +13,7 @@
 ## Event Keycodes
 
 ![](./Screenshots/EventKeycodes.png)
+
+## Menu Like Discord
+
+![](./Screenshots/DiscordLikeMenu.png)
