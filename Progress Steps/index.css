@@ -1,0 +1,97 @@
+@import url('./navbar.css');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: #f0f0f0;
+}
+div {
+  display: flex;
+  align-items: center;
+}
+.container {
+  flex-direction: column;
+  gap: 2rem;
+}
+.progress-bar-container {
+  width: 90px;
+  height: 6px;
+  background: #c0c0c0;
+}
+.progress-bar {
+  width: 0;
+  height: 6px;
+  background: #5662f6;
+  transition: all 0.3s ease-in-out;
+}
+p {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border-radius: 100%;
+  border: solid 4px #c0c0c0;
+  transition: all 0.3s ease-in-out;
+  color: #c0c0c0;
+}
+.buttons {
+  gap: 1rem;
+}
+button {
+  border: none;
+  background: #5662f6;
+  color: white;
+  font-size: 22px;
+  padding: 0.5rem 1.25rem;
+  border-radius: 0.5rem;
+}
+.active-number {
+  border-color: #5662f6;
+}
+.active-bar {
+  width: 100%;
+}
+[disabled='true'] {
+  background: #c0c0c0;
+}
+
+@media (max-width: 400px) {
+  p {
+    height: 26px;
+    width: 26px;
+    border-width: 3px;
+  }
+  .progress-bar-container {
+    width: 80px;
+    height: 5px;
+  }
+  .progress-bar {
+    height: 5px;
+  }
+}
+
+@media (max-width: 350px) {
+  p {
+    height: 22px;
+    width: 22px;
+    border-width: 2px;
+  }
+  .progress-bar-container {
+    width: 70px;
+    height: 4px;
+  }
+  .progress-bar {
+    height: 4px;
+  }
+}
