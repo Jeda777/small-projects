@@ -18,6 +18,6 @@
 
 ![](./Screenshots/DiscordLikeMenu.png)
 
-## [Hamburger Menu Animation Only CSS](https://jeda777.github.io/small_projects/Hamburger%20Menu%20Animation%20Only%20CSS/index.html)
+## [Hamburger Menu Animation Only CSS](https://jeda777.github.io/small_projects/Hamburger%20Menu%20Animation/index.html)
 
 ![](./Screenshots/HamburgerMenuAnimation.png)
