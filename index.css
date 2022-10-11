@@ -3,7 +3,7 @@ body {
   display: flex;
   justify-content: center;
   padding: 2rem 0;
-  background: rgb(120, 163, 219);
+  background: #5f7470;
 }
 
 * {
@@ -23,4 +23,7 @@ ul {
   background: rgba(0, 0, 0, 0.5);
   padding: 1rem 2rem;
   border-radius: 1rem;
+}
+a:hover {
+  color: #abecce;
 }
