@@ -1,0 +1,133 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  height: 100vh;
+  background: #cecece;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+#container {
+  display: flex;
+  align-items: center;
+}
+#burger {
+  width: 80px;
+  height: 80px;
+  padding: 24px 21px;
+  border-radius: 100%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  z-index: 99;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+}
+input {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  width: 80px;
+  height: 80px;
+  opacity: 0;
+  z-index: 999;
+  cursor: pointer;
+}
+.bar {
+  width: 100%;
+  height: 5px;
+  background: black;
+  transition: all 0.3s ease-in-out;
+}
+input:checked {
+  width: 60px;
+  height: 60px;
+}
+input:checked ~ #burger .bar-1 {
+  transform-origin: left;
+  transform: rotate(45deg);
+  margin-left: 5px;
+}
+input:checked ~ #burger .bar-2 {
+  transform-origin: center;
+  transform: scale(0);
+}
+input:checked ~ #burger .bar-3 {
+  transform-origin: left;
+  transform: rotate(-45deg);
+  margin-left: 5px;
+}
+input:checked ~ #burger {
+  width: 60px;
+  height: 60px;
+  padding: 14px 11px;
+}
+.menu-item {
+  cursor: not-allowed;
+  transition: all 0.3s ease-in-out;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-item:hover {
+  background: white;
+}
+.menu-item-1 {
+  background: bisque;
+  margin-top: auto;
+  cursor: pointer;
+}
+.menu-item-2 {
+  background: cornflowerblue;
+}
+.menu-item-3 {
+  background: darksalmon;
+}
+.menu-item-4 {
+  background: lightseagreen;
+}
+.menu-item-5 {
+  background: steelblue;
+}
+.menu-item-6 {
+  background: thistle;
+}
+
+input:checked ~ .menu-item-1 {
+  top: calc(50% - 100px);
+}
+input:checked ~ .menu-item-2 {
+  left: calc(50% + 86.6px);
+  top: calc(50% - 50px);
+}
+input:checked ~ .menu-item-3 {
+  left: calc(50% + 86.6px);
+  top: calc(50% + 50px);
+}
+input:checked ~ .menu-item-4 {
+  top: calc(50% + 100px);
+}
+input:checked ~ .menu-item-5 {
+  left: calc(50% - 86.6px);
+  top: calc(50% + 50px);
+}
+input:checked ~ .menu-item-6 {
+  left: calc(50% - 86.6px);
+  top: calc(50% - 50px);
+}
