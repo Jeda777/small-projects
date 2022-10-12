@@ -30,3 +30,7 @@
 
 ![](./Screenshots/SideSlidingMenu1.png)
 ![](./Screenshots/SideSlidingMenu2.png)
+
+## [Clock](https://jeda777.github.io/small_projects/Clock/index.html)
+
+![](./Screenshots/Clock.png)
