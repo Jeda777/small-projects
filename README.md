@@ -34,3 +34,7 @@
 ## [Clock](https://jeda777.github.io/small_projects/Clock/index.html)
 
 ![](./Screenshots/Clock.png)
+
+## [Gravity Switch](https://jeda777.github.io/small_projects/Gravity%20Switch/index.html)
+
+![](./Screenshots/GravitySwitch.png)
