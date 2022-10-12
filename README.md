@@ -25,3 +25,8 @@
 ## [Flower Menu Only CSS](https://jeda777.github.io/small_projects/Flower%20Menu/index.html)
 
 ![](./Screenshots/FlowerMenu.png)
+
+## [Side Sliding Menu](https://jeda777.github.io/small_projects/Side%20Sliding%20Menu/index.html)
+
+![](./Screenshots/SideSlidingMenu1.png)
+![](./Screenshots/SideSlidingMenu2.png)
