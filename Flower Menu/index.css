@@ -29,7 +29,6 @@ body {
   position: relative;
   z-index: 99;
   transition: all 0.3s ease-in-out;
-  position: relative;
 }
 input {
   position: absolute;

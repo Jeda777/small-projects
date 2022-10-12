@@ -29,7 +29,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
-  padding: 2rem 1rem 2rem 1rem;
+  padding: 2rem 1rem;
   background: white;
   gap: 0.5rem;
 }

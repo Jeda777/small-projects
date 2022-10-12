@@ -24,9 +24,6 @@ body {
   gap: 0.5rem;
 }
 
-p {
-}
-
 [id] {
   display: flex;
   justify-content: center;
