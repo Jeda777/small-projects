@@ -29,7 +29,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
-  padding: 2rem 5rem 2rem 1rem;
+  padding: 2rem 1rem 2rem 1rem;
   background: white;
   gap: 0.5rem;
 }
@@ -40,7 +40,7 @@ img {
 }
 a {
   height: 2.5rem;
-  padding: 0.25rem;
+  padding: 0.25rem 4.25rem 0.25rem 0.25rem;
   width: 100%;
   display: flex;
   align-items: center;
