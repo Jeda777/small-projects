@@ -50,3 +50,7 @@
 ## [Password Generator](https://jeda777.github.io/small-projects/Password%20Generator/index.html)
 
 ![](./Screenshots/PasswordGenerator.png)
+
+## [Random Quotes](https://jeda777.github.io/small-projects/Random%20Quotes/index.html)
+
+![](./Screenshots/RandomQuotes.png)
