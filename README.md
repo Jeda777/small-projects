@@ -42,3 +42,7 @@
 ## [Pop-up Notification](https://jeda777.github.io/small-projects/Pop-up%20Notification/index.html)
 
 ![](./Screenshots/Pop-upNotification.png)
+
+## [Double Click Like](https://jeda777.github.io/small-projects/Double%20Click%20Like/index.html)
+
+![](./Screenshots/DoubleClickLike.png)
