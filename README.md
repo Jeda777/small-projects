@@ -47,6 +47,6 @@
 
 ![](./Screenshots/DoubleClickLike.png)
 
-## [Password Generator](https://jeda777.github.io/small-projects/Password%20generator/index.html)
+## [Password Generator](https://jeda777.github.io/small-projects/Password%20Generator/index.html)
 
 ![](./Screenshots/PasswordGenerator.png)
