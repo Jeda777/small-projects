@@ -38,3 +38,7 @@
 ## [Gravity Switch](https://jeda777.github.io/small_projects/Gravity%20Switch/index.html)
 
 ![](./Screenshots/GravitySwitch.png)
+
+## [Pop-up Notification](https://jeda777.github.io/small_projects/Pop-up%20Notification/index.html)
+
+![](./Screenshots/Pop-upNotification.png)

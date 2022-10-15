@@ -1,0 +1,54 @@
+@import url('./navbar.css');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: #f0f0f0;
+}
+#notification-btn {
+  border: none;
+  background: #5662f6;
+  color: white;
+  font-size: 22px;
+  padding: 0.5rem 1.25rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+#notification-btn:hover {
+  opacity: 0.8;
+}
+#notifications-list {
+  position: fixed;
+  bottom: 2%;
+  right: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.5rem;
+}
+#notifications-list li {
+  background-color: #c0c0c0;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  color: #1b1b1b;
+  animation: startingNotificationLi 0.3s ease-in-out forwards;
+}
+
+@keyframes startingNotificationLi {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
