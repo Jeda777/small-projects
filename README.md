@@ -46,3 +46,7 @@
 ## [Double Click Like](https://jeda777.github.io/small-projects/Double%20Click%20Like/index.html)
 
 ![](./Screenshots/DoubleClickLike.png)
+
+## [Password Generator](https://jeda777.github.io/small-projects/Password%20generator/index.html)
+
+![](./Screenshots/PasswordGenerator.png)
