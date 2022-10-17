@@ -10,7 +10,7 @@ let numbers = true;
 let symbols = false;
 inputs.map((i) => {
     i.addEventListener('change', (e) => {
-        let target = e.target;
+        const target = e.target;
         if (target.id === 'number') {
             passwordLength = Number(target.value);
         }

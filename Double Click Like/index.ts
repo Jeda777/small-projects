@@ -17,10 +17,10 @@ const appendSmallHeart = (e: MouseEvent) => {
   }, 500)
 }
 
-photo2.addEventListener('dblclick', (e) => {
-  appendBigHeart(e)
+photo2.addEventListener('dblclick', () => {
+  appendBigHeart()
 })
-const appendBigHeart = (e) => {
+const appendBigHeart = () => {
   const heart = photo2.appendChild(document.createElement('div'))
   heart.classList.add('big-heart')
   const img = heart.appendChild(document.createElement('img'))

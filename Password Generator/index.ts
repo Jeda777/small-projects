@@ -12,7 +12,7 @@ let symbols = false
 
 inputs.map((i) => {
   i.addEventListener('change', (e) => {
-    let target = <HTMLInputElement>e.target
+    const target = <HTMLInputElement>e.target
     if (target.id === 'number') {
       passwordLength = Number(target.value)
     } else if (target.id === 'lowercase') {
