@@ -54,3 +54,7 @@
 ## [Random Quotes](https://jeda777.github.io/small-projects/Random%20Quotes/index.html)
 
 ![](./Screenshots/RandomQuotes.png)
+
+## [Custom Slidier](https://jeda777.github.io/small-projects/Custom%20Slider/index.html)
+
+![](./Screenshots/CustomSlider.png)
