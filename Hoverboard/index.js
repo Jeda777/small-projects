@@ -1,5 +1,5 @@
 const container = document.querySelector('#container');
-let childs = [];
+const childs = [];
 const getColor = () => {
     return `#${Math.floor(Math.random() * 0xffffff).toString(16)}`;
 };

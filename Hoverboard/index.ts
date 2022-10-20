@@ -1,5 +1,5 @@
 const container = document.querySelector('#container')
-let childs: HTMLDivElement[] = []
+const childs: HTMLDivElement[] = []
 
 const getColor = () => {
   return `#${Math.floor(Math.random() * 0xffffff).toString(16)}`
