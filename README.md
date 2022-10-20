@@ -58,3 +58,7 @@
 ## [Custom Slidier](https://jeda777.github.io/small-projects/Custom%20Slider/index.html)
 
 ![](./Screenshots/CustomSlider.png)
+
+## [Hoverboard](https://jeda777.github.io/small-projects/Hoverboard/index.html)
+
+![](./Screenshots/Hoverboard.png)
