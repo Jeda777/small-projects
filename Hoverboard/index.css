@@ -19,10 +19,10 @@ body {
 
 #container {
   display: grid;
-  height: 419px;
-  width: 629px;
-  grid-template-rows: repeat(20, 20px);
-  grid-template-columns: repeat(30, 20px);
+  width: 219px;
+  height: 329px;
+  grid-template-rows: repeat(30, 10px);
+  grid-template-columns: repeat(20, 10px);
   gap: 1px;
 }
 #container div {
@@ -32,4 +32,12 @@ body {
 #container .hover {
   background: var(--color);
   transition: none;
+}
+@media (min-width: 768px) {
+  #container {
+    height: 419px;
+    width: 629px;
+    grid-template-rows: repeat(20, 20px);
+    grid-template-columns: repeat(30, 20px);
+  }
 }
