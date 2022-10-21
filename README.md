@@ -62,3 +62,7 @@
 ## [Hoverboard](https://jeda777.github.io/small-projects/Hoverboard/index.html)
 
 ![](./Screenshots/Hoverboard.png)
+
+## [Love Calculator using API](https://jeda777.github.io/small-projects/Love%20Calculator/index.html)
+
+![](./Screenshots/LoveCalculator.png)
