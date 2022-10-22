@@ -66,3 +66,7 @@
 ## [Love Calculator using API](https://jeda777.github.io/small-projects/Love%20Calculator/index.html)
 
 ![](./Screenshots/LoveCalculator.png)
+
+## [Wave Animation](https://jeda777.github.io/small-projects/Wave%20Animation/index.html)
+
+![](./Screenshots/WaveAnimation.png)
