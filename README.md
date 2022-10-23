@@ -70,3 +70,7 @@
 ## [Wave Animation](https://jeda777.github.io/small-projects/Wave%20Animation/index.html)
 
 ![](./Screenshots/WaveAnimation.png)
+
+## [Success Button](https://jeda777.github.io/small-projects/Success%20Button/index.html)
+
+![](./Screenshots/SuccessButton.png)

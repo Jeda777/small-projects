@@ -1,0 +1,104 @@
+@import url('./navbar.css');
+:root {
+  --bg: rgba(97, 199, 143, 0.6);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  background: #f0f0f0;
+}
+button {
+  background: #494949;
+  color: white;
+  border: none;
+  border-radius: 2rem;
+  padding: 1rem 3rem;
+  height: 50px;
+  width: 161px;
+  font-weight: 600;
+  font-size: 16px;
+  position: relative;
+}
+button:hover {
+  opacity: 0.7;
+  transition: all 0.3s ease-in-out;
+}
+.animation p {
+  display: none;
+}
+.animation {
+  animation: 2s forwards buttonAnim;
+}
+@keyframes buttonAnim {
+  0% {
+    padding: 0;
+    height: 50px;
+    width: 161px;
+    border-radius: 2rem;
+  }
+  10% {
+    height: 15px;
+    width: 100px;
+  }
+  50% {
+    border-radius: 2rem;
+    width: 250px;
+  }
+  90% {
+    width: 15px;
+    height: 15px;
+    background: #494949;
+    border-radius: 100%;
+  }
+  100% {
+    padding: 0;
+    height: 50px;
+    width: 50px;
+    background: #61df6b;
+  }
+}
+.animation div {
+  top: 0;
+  left: 0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  transform-origin: center;
+  animation: 2s forwards buttonDivAnim;
+}
+@keyframes buttonDivAnim {
+  0% {
+    background: #888888;
+    transform: scaleX(0);
+    border-radius: 2rem;
+  }
+  10% {
+    background: #888888;
+    transform: scaleX(0);
+  }
+  50% {
+    background: #888888;
+    transform: scaleX(1);
+    border-radius: 2rem;
+  }
+  90% {
+    background: #888888;
+    transform: scaleX(1);
+    border-radius: 100%;
+  }
+  100% {
+    background: url('./done_FILL0_wght400_GRAD0_opsz40.svg');
+    background-size: contain;
+  }
+}
