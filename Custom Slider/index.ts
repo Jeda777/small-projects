@@ -1,6 +1,6 @@
 const input = document.querySelector('input')
 
-input.addEventListener('mousemove', (e) => {
+input.addEventListener('pointermove', (e) => {
   const r = 211 + (Number(input.value) / 100) * 27
   const g = 211 + (Number(input.value) / 100) * -34
   const b = 211 + (Number(input.value) / 100) * -166

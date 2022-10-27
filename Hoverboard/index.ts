@@ -11,12 +11,12 @@ for (let i = 0; i < 30 * 20; i++) {
 }
 
 childs.forEach((i) => {
-  i.addEventListener('mouseenter', () => {
+  i.addEventListener('pointerenter', () => {
     i.style.cssText = `--color: ${getColor()}`
     //i.setAttribute('color', getColor())
     i.classList.add('hover')
   })
-  i.addEventListener('mouseout', () => {
+  i.addEventListener('pointerout', () => {
     i.classList.remove('hover')
   })
 })

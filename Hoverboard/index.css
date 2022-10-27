@@ -15,6 +15,7 @@ body {
   align-items: center;
   text-align: center;
   background: rgb(56, 56, 56);
+  overflow: hidden;
 }
 
 #container {
