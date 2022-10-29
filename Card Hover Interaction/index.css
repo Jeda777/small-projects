@@ -1,0 +1,54 @@
+@import url('./navbar.css');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card {
+  height: 300px;
+  width: 200px;
+  border-radius: 1rem;
+  background: url('https://images.unsplash.com/photo-1667028869490-c5de6909706e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80');
+  background-size: cover;
+  background-position: 0 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.card-content {
+  height: 300px;
+  width: 200px;
+  border-radius: 1rem;
+  position: absolute;
+  left: 0;
+  top: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: white;
+  background: rgb(0 0 0 / 0);
+  transition: all 0.3s ease-in-out;
+  padding: 1rem;
+}
+
+.card.active .card-content {
+  top: 0;
+  background: rgb(0 0 0 / 0.5);
+}
+
+.card:hover .card-content {
+  top: 0;
+  background: rgb(0 0 0 / 0.5);
+}

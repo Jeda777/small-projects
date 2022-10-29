@@ -78,3 +78,7 @@
 ## [Image Carousel](https://jeda777.github.io/small-projects/Image%20Carousel/index.html)
 
 ![](./Screenshots/ImageCarousel.png)
+
+## [Card Hover Interaction](https://jeda777.github.io/small-projects/Card%20Hover%20Interaction/index.html)
+
+![](./Screenshots/CardHoverInteraction.png)
