@@ -74,3 +74,7 @@
 ## [Success Button](https://jeda777.github.io/small-projects/Success%20Button/index.html)
 
 ![](./Screenshots/SuccessButton.png)
+
+## [Image Carousel](https://jeda777.github.io/small-projects/Image%20Carousel/index.html)
+
+![](./Screenshots/ImageCarousel.png)
