@@ -21,13 +21,15 @@ const changeActiveImg = () => {
 changeActiveImg();
 prevBtn.addEventListener('click', () => {
     if (id === 0)
-        return;
-    id--;
+        id = images.length - 1;
+    else
+        id--;
     changeActiveImg();
 });
 nextBtn.addEventListener('click', () => {
     if (id === images.length - 1)
-        return;
-    id++;
+        id = 0;
+    else
+        id++;
     changeActiveImg();
 });
