@@ -1,4 +1,4 @@
-# small_projects
+# Small Projects
 
 - [Live site](https://jeda777.github.io/small-projects/)
 
