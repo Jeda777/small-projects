@@ -2,6 +2,29 @@
 
 - [Live site](https://jeda777.github.io/small-projects/)
 
+## Table of contents
+
+- [Expanding Cards](#Expanding-Cards)
+- [Progress Steps](#Progress-Steps)
+- [Event Keycodes](#Event-Keycodes)
+- [Menu Like Discord](#Menu-Like-Discord)
+- [Hamburger Menu Animation Only CSS](#Hamburger-Menu-Animation-Only-CSS)
+- [Flower Menu Only CSS](#Flower-Menu-Only-CSS)
+- [Side Sliding Menu](#Side-Sliding-Menu)
+- [Clock](#Clock)
+- [Gravity Switch](#Gravity-Switch)
+- [Pop-up Notification](#Pop-up-Notification)
+- [Double Click Like](#Double-Click-Like)
+- [Password Generator](#Password-Generator)
+- [Random Quotes](#Random-Quotes)
+- [Custom Slidier](#Custom-Slidier)
+- [Hoverboard](#Hoverboard)
+- [Love Calculator using API](#Love-Calculator-using-API)
+- [Wave Animation](#Wave-Animation)
+- [Success Button](#Success-Button)
+- [Image Carousel](#Image-Carousel)
+- [Card Hover Interaction](#Card-Hover-Interaction)
+
 ## [Expanding Cards](https://jeda777.github.io/small-projects/Expanding%20Cards/index.html)
 
 ![](./Screenshots/ExpandingCards.png)
