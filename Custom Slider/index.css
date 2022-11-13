@@ -23,14 +23,15 @@ input {
   -moz-appearance: none;
   width: 250px;
   height: 20px;
-  background: rgb(211, 211, 211);
+  background: rgb(225, 194, 128);
   border-radius: 1rem;
   outline: none;
   opacity: 0.7;
   transition: all 0.3s ease-in-out;
   position: relative;
 }
-input:hover {
+input:hover,
+input:focus-within {
   opacity: 1;
 }
 
@@ -50,7 +51,8 @@ input::-moz-range-thumb {
   background-color: rgb(132, 59, 98);
   cursor: pointer;
 }
-input:hover::after {
+input:hover::after,
+input:focus-within::after {
   position: absolute;
   content: attr(data-value);
   color: white;
@@ -60,5 +62,5 @@ input:hover::after {
   font-size: 12px;
   top: -2rem;
   transform: translateX(-50%);
-  left: clamp(6%, var(--left), 94%);
+  left: var(--left);
 }
