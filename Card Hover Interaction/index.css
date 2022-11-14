@@ -14,6 +14,8 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
 .card {
@@ -33,22 +35,26 @@ body {
   border-radius: 1rem;
   position: absolute;
   left: 0;
-  top: 200px;
+  top: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   color: white;
-  background: rgb(0 0 0 / 0);
+  background: rgb(0 0 0 / 0.5);
   transition: all 0.3s ease-in-out;
   padding: 1rem;
 }
 
-.card.active .card-content {
-  top: 0;
-  background: rgb(0 0 0 / 0.5);
-}
-
-.card:hover .card-content {
-  top: 0;
-  background: rgb(0 0 0 / 0.5);
+@media (hover) {
+  .not-hover {
+    display: none;
+  }
+  .card-content {
+    top: 200px;
+    background: rgb(0 0 0 / 0);
+  }
+  .card:hover .card-content {
+    top: 0;
+    background: rgb(0 0 0 / 0.5);
+  }
 }
