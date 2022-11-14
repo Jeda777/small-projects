@@ -14,12 +14,15 @@ body {
   padding: 1.5rem;
 }
 #burger {
+  position: relative;
+}
+#bars {
   width: 38px;
   height: 32px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  position: relative;
+
   z-index: 99;
 }
 input {
@@ -30,6 +33,10 @@ input {
   height: 32px;
   opacity: 0;
   z-index: 999;
+}
+input:focus-visible ~ #bars {
+  outline: green auto 1px;
+  outline-offset: 1px;
 }
 .bar {
   width: 100%;
