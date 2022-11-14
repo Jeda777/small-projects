@@ -50,6 +50,10 @@ input {
   background: black;
   transition: all 0.3s ease-in-out;
 }
+input:focus ~ #burger {
+  outline: -webkit-focus-ring-color auto 1px;
+  outline-offset: 1px;
+}
 input:checked {
   width: 60px;
   height: 60px;
