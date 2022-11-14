@@ -22,7 +22,8 @@ body {
   top: 0;
   transition: all 0.3s ease-in-out;
 }
-#navbar-container:hover {
+#navbar-container:hover,
+#navbar-container:focus-within {
   width: 230px;
 }
 #navbar {
@@ -49,7 +50,8 @@ a {
   gap: 1.5rem;
   border-radius: 0.5rem;
 }
-a:hover {
+a:hover,
+a:focus-within {
   background-color: aquamarine;
 }
 .back {
