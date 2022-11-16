@@ -26,9 +26,6 @@ body {
   padding: 24px 21px;
   border-radius: 100%;
   background: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   position: relative;
   z-index: 99;
   transition: all 0.3s ease-in-out;
@@ -45,10 +42,23 @@ input {
   cursor: pointer;
 }
 .bar {
-  width: 100%;
+  position: absolute;
+  translate: -50% -50%;
+  transform-origin: center;
+  left: 50%;
+  width: 38px;
   height: 5px;
   background: black;
-  transition: all 0.3s ease-in-out;
+  transition: scale 0.15s ease-in-out 0.15s, top 0.15s ease-in-out 0.15s, rotate 0.15s ease-in-out;
+}
+.bar-1 {
+  top: calc(24px + 2.5px);
+}
+.bar-2 {
+  top: 50%;
+}
+.bar-3 {
+  top: calc(100% - 24px - 2.5px);
 }
 input:focus-visible ~ #burger {
   outline: -webkit-focus-ring-color auto 1px;
@@ -58,24 +68,19 @@ input:checked {
   width: 60px;
   height: 60px;
 }
+input:checked ~ #burger .bar {
+  transition: scale 0.15s ease-in-out, top 0.15s ease-in-out, rotate 0.15s ease-in-out 0.15s;
+}
 input:checked ~ #burger .bar-1 {
-  transform-origin: left;
-  transform: rotate(45deg);
-  margin-left: 5px;
+  rotate: 45deg;
+  top: 50%;
 }
 input:checked ~ #burger .bar-2 {
-  transform-origin: center;
-  transform: scale(0);
+  scale: 0;
 }
 input:checked ~ #burger .bar-3 {
-  transform-origin: left;
-  transform: rotate(-45deg);
-  margin-left: 5px;
-}
-input:checked ~ #burger {
-  width: 60px;
-  height: 60px;
-  padding: 14px 11px;
+  rotate: -45deg;
+  top: 50%;
 }
 .menu-item {
   cursor: not-allowed;
