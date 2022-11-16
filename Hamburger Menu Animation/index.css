@@ -22,7 +22,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
+  position: relative;
   z-index: 99;
 }
 input {
@@ -39,25 +39,42 @@ input:focus-visible ~ #bars {
   outline-offset: 1px;
 }
 .bar {
-  width: 100%;
+  width: 38px;
   height: 5px;
   background: black;
-  transition: all 0.3s ease-in-out;
+  position: absolute;
+  transform-origin: center;
+  left: 50%;
+  transition: scale 0.15s ease-in-out 0.15s, top 0.15s ease-in-out 0.15s, rotate 0.15s ease-in-out,
+    background 0.15s ease-in-out 0.15s;
+  translate: -50% -50%;
+}
+.bar-1 {
+  top: 2.5px;
+}
+.bar-2 {
+  top: 50%;
+}
+.bar-3 {
+  top: calc(100% - 2.5px);
 }
 
-input:checked ~ .bar-1 {
-  transform-origin: left;
-  transform: rotate(45deg);
+input:checked ~ #bars .bar {
+  transition: scale 0.15s ease-in-out, top 0.15s ease-in-out, rotate 0.15s ease-in-out 0.15s, background 0.15s ease-in-out;
+}
+
+input:checked ~ #bars .bar-1 {
+  top: 50%;
+  rotate: 45deg;
   background: white;
 }
-input:checked ~ .bar-2 {
-  transform-origin: center;
+input:checked ~ #bars .bar-2 {
   transform: scale(0);
   background: white;
 }
-input:checked ~ .bar-3 {
-  transform-origin: left;
-  transform: rotate(-45deg);
+input:checked ~ #bars .bar-3 {
+  top: 50%;
+  rotate: -45deg;
   background: white;
 }
 input:checked ~ #navbar {
