@@ -24,6 +24,7 @@
 - [Success Button](#Success-Button)
 - [Image Carousel](#Image-Carousel)
 - [Card Hover Interaction](#Card-Hover-Interaction)
+- [Stopwatch](#Stopwatch)
 
 ## [Expanding Cards](https://jeda777.github.io/small-projects/Expanding%20Cards/index.html)
 
@@ -105,3 +106,7 @@
 ## [Card Hover Interaction](https://jeda777.github.io/small-projects/Card%20Hover%20Interaction/index.html)
 
 ![](./Screenshots/CardHoverInteraction.png)
+
+## [Stopwatch](https://jeda777.github.io/small-projects/Stopwatch/index.html)
+
+![](./Screenshots/Stopwatch.png)
