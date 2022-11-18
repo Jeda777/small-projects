@@ -29,6 +29,7 @@ button {
   font-weight: 600;
   font-size: 16px;
   position: relative;
+  cursor: pointer;
 }
 button:hover {
   opacity: 0.7;
@@ -38,7 +39,11 @@ button:hover {
   display: none;
 }
 .animation {
+  cursor: default;
   animation: 2s forwards buttonAnim;
+}
+.animation:hover {
+  opacity: 1;
 }
 @keyframes buttonAnim {
   0% {
